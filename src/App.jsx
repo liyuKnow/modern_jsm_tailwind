@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './styles'
+import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer} from './components'
 
 const App = () => {
   return (
@@ -7,26 +8,26 @@ const App = () => {
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <h1 className="text-red-400">Navbar</h1>
+          <Navbar />
         </div>
       </div>
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <h1 className="text-red-400">Hero</h1>
+          <Hero />
         </div>
       </div>
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <h1 className="text-red-400">Stats</h1>
-          <h1 className="text-red-400">Business</h1>
-          <h1 className="text-red-400">Billing</h1>
-          <h1 className="text-red-400">CardDeal</h1>
-          <h1 className="text-red-400">Testimonials</h1>
-          <h1 className="text-red-400">Clients</h1>
-          <h1 className="text-red-400">CTA</h1>
-          <h1 className="text-red-400">Footer</h1>
+          <Stats />
+          <Business />
+          <Billing />
+          <CardDeal />
+          <Testimonials />
+          <Clients />
+          <CTA />
+          <Footer />
         </div>
       </div>
 
